@@ -6,6 +6,9 @@
     font-family: 'Poppins', sans-serif;
     position: relative;
 }
+body{
+    overflow-x: hidden;
+}
 .banner{
     position: relative;
     width: 100%;
@@ -55,14 +58,6 @@
     text-transform: uppercase;
     font-weight: 700;
     letter-spacing: 1px;
-}
-.banner header .toggle{
-    position: relative;
-    width: 36px;
-    height: 28px;
-    background: url(images/toggle.png);
-    background-size: cover;
-    cursor: pointer;
 }
 .about
 {
